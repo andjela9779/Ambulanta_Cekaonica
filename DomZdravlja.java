@@ -174,7 +174,7 @@ public class DomZdravlja {
 
     public static void main(String[] args) {
         Scanner unos = new Scanner(System.in);
-        DomZdravlja dz = new DomZdravlja("Mostar");
+        DomZdravlja dz = new DomZdravlja("test");
         dz.otvoriRecepciju(unos);
         dz.otvoriČekaonicu(unos);
     }
